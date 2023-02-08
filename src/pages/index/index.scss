@@ -1,0 +1,32 @@
+.index {
+  .region-filter-wrap {
+    border-bottom: 1px solid #eee;
+    .picker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100px;
+      .item-button {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid #eee;
+        .item-name {
+          font-size: 26px;
+          color: #333;
+          font-weight: 500;
+        }
+        .item-arrow {
+          margin-left: 20px;
+          width: 0;
+          height: 0;
+          margin-top: 10px;
+          border-width: 10px; /*控制箭头的大小 */
+          border-style: solid;
+          border-color: #333 transparent transparent transparent;
+        }
+      }
+    }
+  }
+}

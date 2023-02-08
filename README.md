@@ -1,6 +1,8 @@
 # taro-citypicker
 基于taro  Taro v3.3.0
-运行命令 yarn run dev:weapp
+运行命令 
+yarn install
+yarn run dev:weapp
 
 小程序用到城市选择器，需要选择省市区，直接使用picker的mode='region'也可以实现，但是由于这个是微信自己封装的，没有暴露出数据源，这就导致与公司的省市区数据源不符合，出于这个原因，这里记录一下自定义省市区的步骤以及关键点
 Demo效果图如下
